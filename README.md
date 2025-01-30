@@ -42,3 +42,8 @@ You can call module using **"call"** command in the shell:
    ```bash
    call hello Ad4ndi
    ```
+
+### Screenshots
+
+![image](https://github.com/user-attachments/assets/866589b9-de36-4a98-b9d3-6aba428551b4)
+
