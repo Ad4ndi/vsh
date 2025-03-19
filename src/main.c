@@ -27,7 +27,8 @@ int main
         parse();
         if (!fgets(input, sizeof(input), stdin)) break;
         input[strcspn(input, "\n")] = '\0';
-        if (!*input || !strcmp(input, "exit")) break;
+        if (!*input) continue;
+        if (!strcmp(input, "exit")) break;
 
         i = 0;
         for (char *token = strtok(input, " "); token && i < MAX_ARGV_LENGTH - 1; token = strtok(NULL, " ")) 
