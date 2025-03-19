@@ -1,4 +1,4 @@
-# VivaShell v2.1 Recoded (Still in developement)
+# VivaShell v2.2 Recoded (Still in developement)
 
 Nsh is a minimalist shell written in C. It supports basic command-line functionality, custom modules and unicode. There is no command history or auto-completion yet, but it will be soon...
 
