@@ -5,7 +5,7 @@ Vsh is a minimalist shell written in C. It supports basic command-line functiona
 ### Dependencies
 
 - clang
-- bash
+- guile
 - nasm
 
 ### Installation Steps
@@ -20,7 +20,7 @@ Vsh is a minimalist shell written in C. It supports basic command-line functiona
 2. **Run the installation script:**
 
    ```bash
-   bash build.sh
+   guile build.scm
    ```
 
 ### Configuration
@@ -34,7 +34,7 @@ Custom modules are located in the **"lib"** directory. To create your own, you c
 To compile ours together with our module, you need to add the **"-l"** option, and then specify the directory to your .c file:
 
    ```bash
-   bash build.sh -l lib/hello.c
+   guile build.scm -l lib/hello.c
    ```
 
 You can call module using **"call"** command in the shell:
